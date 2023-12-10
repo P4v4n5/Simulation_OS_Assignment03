@@ -10,7 +10,7 @@ Program Explanation:
 Here we keep a track of all the pages in the form of list
 We use while loop to go to the end of the list and when we reach the end we replace it with the new page.
 
-<image>
+![Example Image](FIFO_Alg_output_screenshot.jpeg.jpeg) <br>
 
 LRU: (LRU.c)
 Least Recently used algorithm
@@ -24,7 +24,7 @@ When there is a need for page replacement, the page that is least used in recent
 by the new page
 In this program FITLRULONE tracks the recent use of that particular page.
 
-<image>
+![Example Image](LRU_Alg_output_screenshot.jpeg.jpeg) <br>
 
 MFU: (MFU.c)
 Most Frequently Used algorithm
@@ -36,7 +36,7 @@ Here FITMCNTER keeps a track of the number of times the page is used.
 We use a while loop to get the maximum used page (frequently used).
 And we replace that page with the new page that has arrived.
 
-<image>
+![Example Image](MFU_Alg_output_screenshot.jpeg.jpeg) <br>
 
 LFU: (LFU.c)
 Least Frequently Used algorithm
@@ -48,7 +48,7 @@ Here FITLFUCNTER keeps a track of the number of times the page is used.
 We use a while loop to get the minimum used page (less frequently used).
 And we replace that page with the new page that has arrived.
 
-<image>
+![Example Image](LFU_Alg_output_screenshot.jpeg.jpeg) <br>
 
 Random pick: (Random.c)
 Random pick Algorithm
@@ -59,7 +59,8 @@ Here we use rand( ), which generates random numbers to replace the pages.
 Using rand( ) we generate random number and check if the generated number is within the range
 and then replace the page.
 
-<image>
+![Example Image](rANDOM_Alg_output_screenshot.jpeg.jpeg) <br>
+
 PAGE.h:
 Here we declare all the variables and functions that we will be using.
 PAGE.c:
