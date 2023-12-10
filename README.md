@@ -82,5 +82,5 @@ current system state.
 
   
 ## Execution:
-$gcc SIMULATION.c PAGE.c FIFO.c LFU.c MFU.c LRU.c R.c -o SIMULATION
+$gcc SIMULATION.c PAGE.c FIFO.c LFU.c MFU.c LRU.c R.c -o SIMULATION <br>
 $./SIMULATION [FCFS/LRU/Random/MFU/LFU]
